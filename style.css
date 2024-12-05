@@ -1,0 +1,59 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.banner {
+    display: flex;
+    background-color:rgba(36, 25, 243, 0.06);
+    ;
+    padding: 10px 20px;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 5%;
+    max-width: 1200px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 30px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.banner .links {
+    display: flex;
+    gap: 20px;
+}
+
+.banner h4 {
+    margin: 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.banner h2 {
+    font-size: 32px;
+    font-weight: 100;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+h1{
+    margin: 10% auto; 
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    width: fit-content;
+    
+}
+.img1{
+    padding: auto;
+    margin: 0% auto;
+}
+.Main{
+    margin: 5%;
+    justify-content: center;
+}
