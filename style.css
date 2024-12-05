@@ -2,58 +2,84 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding-top: 20px;
+    text-align: center;
 }
 
 .banner {
     display: flex;
-    background-color:rgba(36, 25, 243, 0.06);
-    ;
-    padding: 10px 20px;
+    background-color: rgba(36, 25, 243, 0.06);
+    padding: 5px 15px;
     color: black;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    height: 5%;
-    max-width: 1200px;
+    width: 70%;
+    max-width: 1000px;
     position: fixed;
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 30px;
+    border-radius: 20px;
+    height: 40px;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 .banner .links {
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
 .banner h4 {
     margin: 0;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
 }
 
 .banner h2 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 100;
     font-family: 'DotGothic16', sans-serif;
 }
 
-h1{
-    margin: 10% auto; 
-    font-size: 50px;
-    font-weight: 100;
+.Main h1 {
+    margin: 10% auto 20px;
+    font-size: 120px; 
+    font-weight: 400; 
     font-family: 'DotGothic16', sans-serif;
     text-align: center;
-    width: fit-content;
-    
+    width: 1344px; 
+    height: 120px; 
+    line-height: 120px; 
+    letter-spacing: -2%; 
 }
-.img1{
-    padding: auto;
-    margin: 0% auto;
+
+.img1 {
+    display: block;
+    margin: 20px auto;
+    width: 1344px;
+    height: 672px;
 }
-.Main{
-    margin: 5%;
+
+.Main {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
     justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1344px;
+}
+
+.smallimg {
+    width: 416px;
+    height: 333px;
+    object-fit: cover;
+}
+
+.small {
+    width: 416px;
+    text-align: center;
 }
