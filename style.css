@@ -369,6 +369,7 @@ table tr td{
 /* footer */
 
 .bomo{
+    font-family: 'Courier New', Courier, monospace;
     width: Fill (400px)px;
     height: Hug (60px)px;
     background-color: white;
@@ -378,13 +379,16 @@ table tr td{
     display: flex; 
     justify-content: space-between;
     align-items:baseline;
+    font-family: 'Courier New', Courier, monospace;
     color: black;
 }
 
 .tmc{
     color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 .lowbut{
+    font-family: 'Courier New', Courier, monospace;
     background-color: white;
     height: 1rem;
     color: black;
